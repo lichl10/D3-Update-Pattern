@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Pattern</title>
+    <!--Milligram-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <!--D3 import-->
+    <script defer src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    <!--import javascript-->
+    <script defer src="./updatePattern.js"></script>
+    <!--import style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <h1>Coffee House Chains</h1>
+    <h2>A ranking of selected leading coffee house chains worldwide</h2>
+    <div class='row'>
+        <div class="container column column-10">
+            <label for="group-by">Group By</label>
+        </div>
+        <div class="container column column-25">
+            <select id="group-by">
+                <option value="stores">Stores worldwide</option>
+                <option value="revenue">Revenue in billion U.S. dollars</option>
+            </select>
+        </div>
+        <div class="container column column-20">
+            <button class="sort" class="container column column-30">Sort</button>
+        </div>
+        <div class="container column column-70"></div>
+    </div>
+    <div class="wrapper">
+        <div class="chart"></div>
+    </div>
+  </body>
+</html>

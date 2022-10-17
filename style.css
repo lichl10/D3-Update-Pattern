@@ -1,0 +1,16 @@
+.wrapper,.row{
+    margin: 20px;
+}
+h1{
+    margin-left: 20px;
+    color:blue;
+}
+h2{
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ .sort{
+     margin-left:20px;
+ }
